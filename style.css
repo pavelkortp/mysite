@@ -1,0 +1,71 @@
+.poety {
+    width: 900px;
+}
+
+.content {
+    max-width: 1600px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.7;
+}
+
+.mark-list {
+    list-style-type: square;
+}
+
+.line {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.hello {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.quote {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+.verse {
+    font-family: 'Marck Script', cursive;
+}
+
+.text {
+    background-color: rgb(208, 168, 243);
+    height: 800px;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 100px;
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    background-color: rgb(245, 234, 255);
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-list li:hover {
+    color: rgb(198, 198, 198);
+    transition-duration: .5s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(123, 61, 180);
+    height: 65px;
+    padding: 0 20px;
+    line-height: 65px;
+}
+
+header {
+    text-align: center;
+}
+
+.nav-list li {
+    padding: 0 10px;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.logo-img {
+    height: 40px;
+    padding: 10px;
+}
+
+.logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 15px;
+    background-color: rgb(122, 61, 179);
+    padding: 20px;
+    color: #ffffff;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.email-icon {
+    background-image: url('img/footerIcons/googleplus_icon.png');
+}
+
+.telegram-icon {
+    background-image: url('img/footerIcons/telegram_icon.png');
+}
+
+.instagram-icon {
+    background-image: url('img/footerIcons/instagram_icon.png');
+}

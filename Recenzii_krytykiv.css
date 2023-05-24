@@ -1,0 +1,38 @@
+h5 {
+    color: #ffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rez {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.review {
+    background-color: rgb(208, 168, 243);
+    padding: 10px;
+}
+
+.photo {
+    width: 300px;
+}
+
+.btn {
+    background-color: rgb(122, 61, 179);
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.provide_feedback {
+    background-color: rgb(220, 206, 231);
+    padding: 0 10px;
+}

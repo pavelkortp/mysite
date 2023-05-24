@@ -1,0 +1,52 @@
+.logo-img {
+    height: 40px;
+    padding: 10px;
+}
+
+.logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.book {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.photos {
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(208, 168, 243);
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation a:hover {
+    background-color: rgb(122, 61, 179);
+}
+  

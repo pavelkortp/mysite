@@ -1,0 +1,75 @@
+.logo-img {
+    height: 40px;
+    width: 51px;
+    padding: 10px;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+.nav-list li:hover {
+    color: rgb(198, 198, 198);
+    transition-duration: .5s;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: .2em;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.text-purp {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: rgb(122, 61, 179);
+    text-shadow: 1px 1px 0 #000000;
+}
+
+input[type="text"], input[type="password"] {
+    border-radius: 20px;
+    padding: 10px;
+    border-color: #000000;
+}
+
+textarea {
+    border-radius: 20px;
+    padding: 10px;
+    border-color: #000000;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    background-color: rgb(122, 61, 179);
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+      

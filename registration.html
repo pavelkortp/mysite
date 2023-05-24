@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registration.css">
+    <link rel="stylesheet" href="./Master_file.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <title>Регестрація</title>
+</head>
+<body>
+<div class="header">
+    <div class="logo-container">
+        <a class="logo-link" href="index.html">
+            <img class="logo-img" src="img/logo/logo.png" alt="logo">
+            <h5>Poetry Unbound</h5>
+        </a>
+    </div>
+    <ul class="nav-list">
+        <li>
+            <a class="nav-list-link" href="./Biograf_poetiv.html">Біографії поетів</a>
+        </li>
+        <li>
+            <a class="nav-list-link" href="./Literatura.html">Література</a>
+        </li>
+        <li>
+            <a class="nav-list-link" href="./Recenzii_krytykiv.html">Рецензії критиків</a>
+        </li>
+        <li>
+            <a class="nav-list-link" href="./Pro_nas.html">Про нас</a>
+        </li>
+        <li>
+            <a class="nav-list-link" href="./forms.html">Форми</a>
+        </li>
+        <li>
+            <a class="nav-list-link" href="./registration.html">Реєстрація</a>
+        </li>
+        <li>
+            <a class="nav-list-link" href="./karta_saytu.html">Карта сайту</a>
+        </li>
+    </ul>
+</div>
+
+<div class="registration"><br><br><br><br><br><br><br><br><br><br>
+    <h3>Реєстрація</h3>
+    <form>
+        <label class="text-purp" for="name">Ім'я:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label class="text-purp" for="surname">Прізвище:</label><br>
+        <input type="text" id="surname" name="surname"><br>
+
+        <label class="text-purp" for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label class="text-purp" for="country">Країна проживання:</label>
+        <select id="country" name="country">
+            <option value="ukraine">Україна</option>
+            <option value="russia">Грузія</option>
+            <option value="usa">США</option>
+        </select><br>
+
+        <label class="text-purp" for="birthdate">Дата народження:</label>
+        <select id="day" name="day">
+            <option value="">День</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="2">3</option>
+            <option value="2">4</option>
+            <option value="2">5</option>
+            <option value="2">6</option>
+            <option value="2">7</option>
+            <option value="2">8</option>
+            <option value="2">9</option>
+            <option value="2">10</option>
+            <option value="2">11</option>
+            <option value="2">12</option>
+            <option value="2">13</option>
+            <option value="2">14</option>
+            <option value="2">15</option>
+            <option value="2">16</option>
+            <option value="2">17</option>
+            <option value="2">18</option>
+            <option value="2">19</option>
+            <option value="2">20</option>
+            <option value="2">21</option>
+            <option value="2">22</option>
+            <option value="2">23</option>
+            <option value="2">24</option>
+            <option value="2">25</option>
+            <option value="2">26</option>
+            <option value="2">27</option>
+            <option value="2">28</option>
+            <option value="2">29</option>
+            <option value="2">30</option>
+            <option value="2">31</option>
+        </select>
+        <select id="month" name="month">
+            <option value="">Місяць</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="2">3</option>
+            <option value="2">4</option>
+            <option value="2">5</option>
+            <option value="2">6</option>
+            <option value="2">7</option>
+            <option value="2">8</option>
+            <option value="2">9</option>
+            <option value="2">10</option>
+            <option value="2">11</option>
+            <option value="2">12</option>
+        </select>
+        <select id="year" name="year">
+            <option value="">Рік</option>
+            <option value="1">1996</option>
+            <option value="2">1997</option>
+            <option value="2">1999</option>
+            <option value="2">2000</option>
+            <option value="2">2001</option>
+            <option value="2">2002</option>
+            <option value="2">2003</option>
+            <option value="2">2004</option>
+            <option value="2">2005</option>
+            <option value="2">2006</option>
+            <option value="2">2007</option>
+            <option value="2">2008</option>
+            <option value="2">2009</option>
+            <option value="2">2010</option>
+            <option value="2">2011</option>
+            <option value="2">2012</option>
+            <option value="2">2013</option>
+            <option value="2">2014</option>
+        </select><br>
+
+        <label class="text-purp" for="gender">Стать:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Чоловіча</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Жіноча</label><br>
+
+        <label class="text-purp" for="mailsPerDay">Кількість листів на день:</label>
+        <input type="radio" id="1mail" name="mailsPerDay" value="1">
+        <label for="1mail">1</label>
+        <input type="radio" id="2mails" name="mailsPerDay" value="2">
+        <label for="2mails">2</label>
+        <input type="radio" id="3mails" name="mailsPerDay" value="3">
+        <label for="3mails">3</label><br>
+
+        <label class="text-purp" for="interests">Інтереси:</label><br>
+        <select id="interests" name="interests" multiple>
+            <option value="music">Музика</option>
+            <option value="sports">Спорт</option>
+            <option value="movies">Фільми</option>
+            <option value="books">Книги</option>
+        </select><br>
+
+
+        <label class="text-purp" for="notes">Примітки:</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br>
+        <button class="btn" type="reset">Очистити форму</button>
+        <button class="btn" type="submit">Надіслати дані</button>
+
+    </form>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+    <nav>
+        <ul>
+            <li> Повне або часткове використання інформації тільки за наявності активного посилання на сайт<br>© 2023
+                Poetry Unbound
+            </li>
+            <br>
+            <li><span class="social-icon email-icon"></span><a href="#">моя пошта: pavelkortp@gmail.com</a></li>
+            <li><span class="social-icon telegram-icon"></span><a href="https://t.me/Haharon">мій телеграм: @Haharon</a>
+            </li>
+            <li><span class="social-icon instagram-icon"></span><a href="https://www.instagram.com/pablo_de_zhurbio/">мій
+                інстаграм: pablo_de_zhurbio</a></li>
+        </ul>
+
+    </nav>
+</footer>
+</body>
+</html>

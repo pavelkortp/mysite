@@ -1,0 +1,50 @@
+.logo-img {
+    height: 40px;
+    padding: 10px;
+}
+
+.logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+footer {
+    font-size: 15px;
+    background-color: rgb(122, 61, 179);
+    padding: 20px;
+    color: #ffffff;
+}
+
+.book {
+    width: 1450px;
+    height: 600px;
+}
+
+.books {
+
+    width: 300px;
+    height: 400px;
+    padding: 0 90px;
+}
+
+.books:hover {
+    filter: brightness(70%);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: inline;
+    padding: 0 188px;
+
+}
+
+
+
